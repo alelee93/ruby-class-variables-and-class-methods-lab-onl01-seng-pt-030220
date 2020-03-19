@@ -32,11 +32,19 @@ class Song
     
     genre_count = Hash.new(0)
     #REMEMBER Hash.new(0) sets default value for any key to 0, while {} sets nil
+    
     @@genres.each do |genre|
     genre_count[genre] += 1
-  end
+    end
     genre_count
-    
   end
   
+  def self.artist_count
+    artist_count = Hash.new(0)
+    @@arists.each do |artist|
+      artist_count[artist] += 1
+    end
+    artist_count
+  end
+
 end
