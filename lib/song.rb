@@ -34,10 +34,9 @@ class Song
     @@genres.each do |genre|
     genre_count[genre] = {}
     
-    
-   # genre_count[@genre] = {}
+  
     end 
-    
+    genre_count
   end
   
 end
