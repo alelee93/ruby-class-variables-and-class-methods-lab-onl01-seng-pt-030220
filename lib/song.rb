@@ -35,7 +35,7 @@ class Song
     genre_count[genre] = {}
     
     
-    genre_count[@genre] = {}
+   # genre_count[@genre] = {}
     
     
     
