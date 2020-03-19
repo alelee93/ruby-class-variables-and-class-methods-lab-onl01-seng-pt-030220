@@ -35,6 +35,11 @@ class Song
     genre_count[genre] = 
     
     
+#     a.each do |v|
+#   b[v] += 1
+# end
+    
+    
     end 
     genre_count
     
